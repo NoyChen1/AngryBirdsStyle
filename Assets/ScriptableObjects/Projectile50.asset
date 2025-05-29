@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9994bf2869b4fc44b2729804f8c63a5, type: 3}
+  m_Name: Projectile50
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2039469043319043502, guid: 35f0bd10e3a76374487fe8a92864ac37, type: 3}
+  launchForce: 10
+  lifeTime: 10
+  damage: 50
+  trailMaterial: {fileID: 0}
