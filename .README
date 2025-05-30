@@ -4,7 +4,7 @@ This is a 3D projectile-based game inspired by *Angry Birds*, where the player s
 
 ## 🎮 Gameplay Overview
 
-- The player uses a **cannon** to shoot at **mobile targets** (represented as houses).
+- The player uses a **cannon** to shoot at **moving targets** (represented as houses).
 - There are **two types of ammunition**:
   - **Spike Ball** – Deals **25 damage**
   - **Bomb** – Deals **50 damage**
@@ -21,14 +21,13 @@ This is a 3D projectile-based game inspired by *Angry Birds*, where the player s
 ## ⚙️ Customization
 
 - All gameplay values (ammo count, damage, health, etc.) are configurable via the Unity **Inspector**.
-- Targets can optionally move in non-linear paths (e.g., sine waves).
 
 ## ✅ Features
 
 - **Object Pooling** for efficient projectile management
 - **DOTween**-based movement for projectiles and targets
 - **Event-driven architecture** with a global `GameEventDispatcher`
-- **Victory/Defeat UI** with restart button
+- **Victory/Defeat UI**
 - No use of `Update()` in core gameplay logic — fully event-based!
 
 ---
